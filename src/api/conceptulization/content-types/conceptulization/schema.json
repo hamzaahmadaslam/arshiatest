@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "conceptulizations",
+  "info": {
+    "singularName": "conceptulization",
+    "pluralName": "conceptulizations",
+    "displayName": "Conceptulization",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Title": {
+      "type": "richtext"
+    }
+  }
+}

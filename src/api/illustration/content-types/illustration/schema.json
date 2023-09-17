@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "illustrations",
+  "info": {
+    "singularName": "illustration",
+    "pluralName": "illustrations",
+    "displayName": "Illustration",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

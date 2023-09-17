@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "brand_identities",
+  "info": {
+    "singularName": "brand-identity",
+    "pluralName": "brand-identities",
+    "displayName": "Brand-Identity",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Title": {
+      "type": "richtext"
+    }
+  }
+}
